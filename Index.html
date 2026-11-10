@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+  content="NNC Global Platform - Education, Nyahbinghi Heritage, Science, Technology and Innovation.">
+
+  <title>NNC | Nyabinghi National Council</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="top-header">
+
+  <a href="#home" class="brand">
+    <div class="nnc-logo">
+      <span>N</span>
+      <span>N</span>
+      <span>C</span>
+    </div>
+
+    <div class="brand-text">
+      <h2>NNC</h2>
+      <p>NYABINGHI NATIONAL COUNCIL</p>
+    </div>
+  </a>
+
+  <select id="language" aria-label="Choose language">
+    <option value="en">English</option>
+    <option value="ny">Chichewa</option>
+    <option value="sw">Kiswahili</option>
+    <option value="fr">Français</option>
+  </select>
+
+  <button class="menu-toggle" id="menuToggle"
+  aria-label="Open navigation">☰</button>
+
+</header>
+
+<nav class="navbar" id="navbar">
+  <a href="#home" data-i18n="home">Home</a>
+  <a href="#about" data-i18n="about">About</a>
+  <a href="#education" data-i18n="education">Education</a>
+  <a href="#science" data-i18n="science">Science</a>
+  <a href="#technology" data-i18n="technology">Technology</a>
+  <a href="#astronomy" data-i18n="astronomy">Astronomy</a>
+  <a href="#culture" data-i18n="culture">Culture</a>
+  <a href="#business" data-i18n="business">Business</a>
+  <a href="#library" data-i18n="library">Library</a>
+</nav>
+
+<main>
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
+
+    <div class="flag-symbol">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <p class="hero-label">GLOBAL KNOWLEDGE PLATFORM</p>
+
+    <h1 data-i18n="heroTitle">
+      Knowledge, Heritage & Global Unity
+    </h1>
+
+    <p class="hero-description" data-i18n="heroText">
+      Explore education, Rastafari Nyahbinghi heritage,
+      science, technology, astronomy, business and innovation.
+    </p>
+
+    <a href="#explore" class="hero-button"
+    data-i18n="explore">EXPLORE NNC</a>
+
+  </div>
+
+  <div class="hero-decoration">NNC</div>
+
+</section>
+
+<section class="search-section">
+
+  <h2 data-i18n="searchTitle">Discover Knowledge</h2>
+
+  <div class="search-box">
+    <input
+      type="search"
+      id="searchInput"
+      placeholder="Search NNC..."
+      data-i18n-placeholder="searchPlaceholder"
+    >
+
+    <button id="searchButton">🔍</button>
+  </div>
+
+  <p id="searchMessage"></p>
+
+</section>
+
+<section class="about-section" id="about">
+
+  <h2 data-i18n="aboutTitle">Welcome to NNC</h2>
+
+  <p data-i18n="aboutText">
+    A platform for learning, cultural preservation,
+    knowledge sharing and global development.
+  </p>
+
+</section>
+
+<section class="explore-section" id="explore">
+
+  <div class="section-heading">
+    <p>DISCOVER • LEARN • CREATE</p>
+    <h2 data-i18n="exploreTitle">Explore Our Global Platform</h2>
+    <span></span>
+  </div>
+
+  <div class="cards">
+
+    <article class="card" id="education">
+      <div class="card-icon">📚</div>
+      <h3 data-i18n="education">Education</h3>
+      <p>Learning, knowledge and educational resources.</p>
+      <a href="pages/education.html">Explore →</a>
+    </article>
+
+    <article class="card" id="science">
+      <div class="card-icon">🔬</div>
+      <h3 data-i18n="science">Science</h3>
+      <p>Research, discoveries, physics and biology.</p>
+      <a href="pages/science.html">Explore →</a>
+    </article>
+
+    <article class="card" id="technology">
+      <div class="card-icon">⚙️</div>
+      <h3 data-i18n="technology">Technology</h3>
+      <p>Artificial intelligence, robotics and software.</p>
+      <a href="pages/technology.html">Explore →</a>
+    </article>
+
+    <article class="card" id="astronomy">
+      <div class="card-icon">🌌</div>
+      <h3 data-i18n="astronomy">Digital Astronomy</h3>
+      <p>Stars, planets, galaxies and space exploration.</p>
+      <a href="pages/astronomy.html">Explore →</a>
+    </article>
+
+    <article class="card" id="culture">
+      <div class="card-icon">🌍</div>
+      <h3 data-i18n="culture">Rastafari Heritage</h3>
+      <p>Nyahbinghi history, culture and traditions.</p>
+      <a href="pages/heritage.html">Explore →</a>
+    </article>
+
+    <article class="card" id="business">
+      <div class="card-icon">💼</div>
+      <h3 data-i18n="business">Business</h3>
+      <p>Entrepreneurship, trade and economic development.</p>
+      <a href="pages/business.html">Explore →</a>
+    </article>
+
+    <article class="card" id="agriculture">
+      <div class="card-icon">🌱</div>
+      <h3>Agriculture</h3>
+      <p>Farming, food production and sustainability.</p>
+      <a href="pages/agriculture.html">Explore →</a>
+    </article>
+
+    <article class="card" id="library">
+      <div class="card-icon">📖</div>
+      <h3 data-i18n="library">Digital Library</h3>
+      <p>Books, articles, research and learning materials.</p>
+      <a href="pages/library.html">Explore →</a>
+    </article>
+
+  </div>
+
+</section>
+
+<section class="vision-section">
+
+  <h2>KNOWLEDGE • CULTURE • INNOVATION</h2>
+
+  <p>
+    Learning from heritage, exploring science,
+    embracing technology and building knowledge.
+  </p>
+
+</section>
+
+</main>
+
+<footer>
+
+  <div class="footer-flag">
+    <span></span><span></span><span></span>
+  </div>
+
+  <h2>NNC</h2>
+
+  <p>NYABINGHI NATIONAL COUNCIL</p>
+
+  <p>Education • Heritage • Science • Technology • Unity</p>
+
+  <small>© 2026 NNC Global Platform</small>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
